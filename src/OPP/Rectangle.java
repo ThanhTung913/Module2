@@ -7,7 +7,7 @@ public class Rectangle {
         HCN hcn = new HCN();
         double area = hcn.setArea(5.0, 3.0);
         double perimeter = hcn.setPerimeter(5.0,4.0);
-        System.out.println(" Chu vi hình chữ nhật là : " + area);
+        System.out.println(" Chu vi hình  nhật là : " + area);
         System.out.println("Diện tích hình chữ nhật là: " + perimeter);
     }
 }
