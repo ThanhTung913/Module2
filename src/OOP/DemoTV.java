@@ -1,4 +1,4 @@
-package OPP;
+package OOP;
 
 public class DemoTV {
     class TV {

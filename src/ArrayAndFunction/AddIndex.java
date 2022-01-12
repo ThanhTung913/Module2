@@ -1,5 +1,7 @@
 package ArrayAndFunction;
 
+import java.util.Scanner;
+
 public class AddIndex {
     public static void main(String[] args) {
         int arr[] = new int[10];
@@ -24,5 +26,29 @@ public class AddIndex {
 
         }
         System.out.println();
+    }
+
+    public static class StaticMethod {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            String chuoi;
+            char kyTu = 'a';
+            int count = 0;
+
+
+            System.out.println("Nhập vào chuỗi bất kỳ: ");
+            chuoi = scanner.nextLine();
+
+            // duyệt từ đầu đến cuối chuỗi
+            for (int i = 0; i < chuoi.length(); i++) {
+                // Nếu ký tự tại vị trí thứ i bằng 'a' thì tăng count lên 1
+                if (chuoi.charAt(i) == kyTu) {
+                    count++;
+                }
+            }
+            System.out.println("Số lần xuất hiện của ký tự " + kyTu +
+                    " trong chuỗi " + chuoi + " = " + count);
+        }
+
     }
 }

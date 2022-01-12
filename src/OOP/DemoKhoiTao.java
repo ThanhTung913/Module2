@@ -1,4 +1,4 @@
-package OPP;
+package OOP;
 
 public class DemoKhoiTao {
     public static void main(String[] args) {
